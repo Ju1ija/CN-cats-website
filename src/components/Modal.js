@@ -30,16 +30,15 @@ const Modal = () => {
         <Modal.Body>
             <p>Modal body text goes here.</p>
             <button className="delete-btn" onClick={() => removeItem (index)}><DeleteForeverIcon /></button>
-            )}
         </Modal.Body>
 
         <Modal.Footer>
         </Modal.Footer>
         </Modal.Dialog>
 
-        const EmptyBasket = () =>{
-            <p>Uh oh! Your basket is empty, lets find a furry friend to add</</p>
-        }
+        // const EmptyBasket = (() =>{
+        //     <p>Uh oh! Your basket is empty, lets find a furry friend to add</</p>
+        // })
 
         // <div className ="container">
         //     <h1>My Basket:</h1>
