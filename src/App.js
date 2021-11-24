@@ -25,7 +25,7 @@ const Basket = () => {
     }
     return (
         <div className ="container">
-            <h1>My Notes:</h1>
+            <h1>My Basket:</h1>
             <input type="text" placeholder="Add note here" onChange={changeHandler}/>
             <button onClick={addItem}>add note</button>
             <p>{input}</p>  
@@ -39,9 +39,8 @@ const Basket = () => {
         })}
         </div>
     );
+      }
 
-
-export default App;
 //modal2 test
 
 export default App;
