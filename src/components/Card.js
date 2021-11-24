@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 function Card() {
   const [image, setImage] = useState("");
   const [name, setName] = useState("");
+  const [info, setInfo] = useState(true);
 
   useEffect(() => {
     imageHandler();
@@ -30,10 +31,20 @@ function Card() {
   }
 
   return (
-    <div>
+    <div className="container">
+    {info ?
+      <div className="mainSet">
       <img src={image} alt="" />
       <h3>{name}</h3>
-      <button>Price</button>
+      <p><a onClick={() => {setInfo(false)}} 
+      href="#">click here to learn more</a></p>
+      <button>£</button>
+      </div> :
+      <div className="infoSet">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia orci sapien, at posuere odio condimentum ac. Phasellus ut arcu et orci cursus mattis dignissim id dui. Duis nec enim a felis porttitor dapibus. Morbi vitae est vitae odio condimentum sagittis. Duis vehicula lacus tortor, at auctor eros ultrices nec.</p>
+        <button onClick={() => {setInfo(true)}}>back</button>
+      </div>
+}
     </div>
   )
 }

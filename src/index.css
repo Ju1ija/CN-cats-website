@@ -1,25 +1,62 @@
 body {
-  background-color: #a7b6c4;
+  background-color: #b8c5ce;
   text-align: center;
   font-family: "Bebas Neue", arial;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
 button {
-  background-color: #a7b6c4;
-  border: 2px solid #3c2363;
+  background-color: #074b78;
+  border: 1.5px solid black;
   border-radius: 5px;
   padding: 6px;
   min-width: 80px;
-  font-size: 12px;
+  max-width: 80px;
+  font-family: monospace, arial;
+  font-size: 16px;
   transition: .5s;
 }
 
 button:hover {
-  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #392943;
+  color: white;
   transition: .5s;
 }
 
 img {
-  max-height: 20vh;
-  max-width: 20vw;
+  max-height: 50vh;
+  max-width: 50px;
+  min-height: 20vh;
+  min-width: 20vh;
+}
+
+.container {
+  background-color: #e7e8ec;
+  padding: 5px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.container:hover {
+  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: .5s;
+}
+
+.infoSet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 339px;
+  max-width: 187px;
 }
