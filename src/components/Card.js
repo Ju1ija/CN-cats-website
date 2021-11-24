@@ -2,12 +2,14 @@ import { useEffect, useState } from "react";
 
 function Card() {
   const [image, setImage] = useState("");
+  const [name, setName] = useState("");
 
   useEffect(() => {
-    handler();
+    imageHandler();
+    nameHandler();
   }, []);
 
-  const handler = async () => {
+  const imageHandler = async () => {
     try {
       const response = await fetch("https://api.thecatapi.com/v1/images/search");
       const data = await response.json();
@@ -17,10 +19,20 @@ function Card() {
     }
   }
 
+  const nameHandler = async () => {
+    try {
+      const response = await fetch("https://randomuser.me/api/");
+      const data = await response.json();
+      setName(data.results[0].name.first);
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
   return (
     <div>
       <img src={image} alt="" />
-      <h3>Name</h3>
+      <h3>{name}</h3>
       <button>Price</button>
     </div>
   )
