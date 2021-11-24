@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import { useState } from "react";
+=======
+>>>>>>> b5fd4b3990f3a6846f4772c4083f6b5694a8fe13
 import './App.css';
 import Card from "./components/Card.js"
 import List from "./List";
@@ -45,4 +48,23 @@ const Basket = () => {
 
 export default Basket;
 
+<<<<<<< HEAD
+=======
+function App() {
+
+  const numOfCards = new Array(12).fill();
+
+  return (
+    <div className="cats-on-sale">
+      {numOfCards.map((index) => {
+        return (
+          <div key={index}>
+            <Card />
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+>>>>>>> b5fd4b3990f3a6846f4772c4083f6b5694a8fe13
 
