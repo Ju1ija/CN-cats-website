@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './App.css';
 import Card from "./components/Card.js"
+<<<<<<< HEAD
 import List from "./List";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
@@ -43,5 +44,11 @@ const Basket = () => {
 
 export default App;
 //modal2 test
+=======
+
+function App() {
+  return <Card />;
+}
+>>>>>>> 2df0211ab54d5f99a652053f6fe18712578a4303
 
 export default App;
