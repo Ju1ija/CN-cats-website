@@ -36,9 +36,6 @@ const Modal = () => {
         </Modal.Footer>
         </Modal.Dialog>
 
-        // const EmptyBasket = (() =>{
-        //     <p>Uh oh! Your basket is empty, lets find a furry friend to add</</p>
-        // })
 
         // <div className ="container">
         //     <h1>My Basket:</h1>
