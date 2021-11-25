@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/CN-cats-website/static/css/main.8796521a.chunk.css",
-    "main.js": "/CN-cats-website/static/js/main.636ead48.chunk.js",
-    "main.js.map": "/CN-cats-website/static/js/main.636ead48.chunk.js.map",
-    "runtime-main.js": "/CN-cats-website/static/js/runtime-main.26e27593.js",
-    "runtime-main.js.map": "/CN-cats-website/static/js/runtime-main.26e27593.js.map",
-    "static/js/2.dd1aa91f.chunk.js": "/CN-cats-website/static/js/2.dd1aa91f.chunk.js",
-    "static/js/2.dd1aa91f.chunk.js.map": "/CN-cats-website/static/js/2.dd1aa91f.chunk.js.map",
-    "static/js/3.56190b35.chunk.js": "/CN-cats-website/static/js/3.56190b35.chunk.js",
-    "static/js/3.56190b35.chunk.js.map": "/CN-cats-website/static/js/3.56190b35.chunk.js.map",
+    "main.css": "/CN-cats-website/static/css/main.b1f2cca8.chunk.css",
+    "main.js": "/CN-cats-website/static/js/main.4035f02b.chunk.js",
+    "main.js.map": "/CN-cats-website/static/js/main.4035f02b.chunk.js.map",
+    "runtime-main.js": "/CN-cats-website/static/js/runtime-main.f3d466a8.js",
+    "runtime-main.js.map": "/CN-cats-website/static/js/runtime-main.f3d466a8.js.map",
+    "static/css/2.383c0125.chunk.css": "/CN-cats-website/static/css/2.383c0125.chunk.css",
+    "static/js/2.f98295c9.chunk.js": "/CN-cats-website/static/js/2.f98295c9.chunk.js",
+    "static/js/2.f98295c9.chunk.js.map": "/CN-cats-website/static/js/2.f98295c9.chunk.js.map",
+    "static/js/3.d1d6744f.chunk.js": "/CN-cats-website/static/js/3.d1d6744f.chunk.js",
+    "static/js/3.d1d6744f.chunk.js.map": "/CN-cats-website/static/js/3.d1d6744f.chunk.js.map",
     "index.html": "/CN-cats-website/index.html",
-    "static/css/main.8796521a.chunk.css.map": "/CN-cats-website/static/css/main.8796521a.chunk.css.map",
-    "static/js/2.dd1aa91f.chunk.js.LICENSE.txt": "/CN-cats-website/static/js/2.dd1aa91f.chunk.js.LICENSE.txt"
+    "static/css/2.383c0125.chunk.css.map": "/CN-cats-website/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.b1f2cca8.chunk.css.map": "/CN-cats-website/static/css/main.b1f2cca8.chunk.css.map",
+    "static/js/2.f98295c9.chunk.js.LICENSE.txt": "/CN-cats-website/static/js/2.f98295c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.26e27593.js",
-    "static/js/2.dd1aa91f.chunk.js",
-    "static/css/main.8796521a.chunk.css",
-    "static/js/main.636ead48.chunk.js"
+    "static/js/runtime-main.f3d466a8.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.f98295c9.chunk.js",
+    "static/css/main.b1f2cca8.chunk.css",
+    "static/js/main.4035f02b.chunk.js"
   ]
 }
