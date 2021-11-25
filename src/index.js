@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Basket from './components/Basket';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Basket />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

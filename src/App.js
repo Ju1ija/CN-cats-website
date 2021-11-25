@@ -1,4 +1,3 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Card from "./components/Card.js"
@@ -20,3 +19,4 @@ function App() {
 }
 
 export default App;
+
