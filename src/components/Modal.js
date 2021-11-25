@@ -1,40 +1,40 @@
 
-import { useState } from "react";
-import './App.css';
-import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+// import { useState } from "react";
+// import './App.css';
+// import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
 
-const Modal = () => {
+// const Modal2 = () => {
     
 
-    const addItem = () =>{
-                let storedItem = [...item]
-                storedItem.push(input)
-                setItem(storedItem)
-            }
-    const removeItem = (index) => {
-                let storedItem = [...item]
-                storedItem.splice(index, 1)
-                setItem(storedItem)
-    }        
+//     const addItem = () =>{
+//                 let storedItem = [...item]
+//                 storedItem.push(input)
+//                 setItem(storedItem)
+//             }
+//     const removeItem = (index) => {
+//                 let storedItem = [...item]
+//                 storedItem.splice(index, 1)
+//                 setItem(storedItem)
+//     }        
 
-    const changeHandler = (event) => {
-        setInput(event.target.value)
-    }
-    return (
-        <Modal.Dialog>
-        <Modal.Header closeButton>
-            <Modal.Title>Cat Basket</Modal.Title>
-        </Modal.Header>
+//     const changeHandler = (event) => {
+//         setInput(event.target.value)
+//     }
+//     return (
+//         <Modal.Dialog>
+//         <Modal.Header closeButton>
+//             <Modal.Title>Cat Basket</Modal.Title>
+//         </Modal.Header>
 
-        <Modal.Body>
-            <p>Modal body text goes here.</p>
-            <button className="delete-btn" onClick={() => removeItem (index)}><DeleteForeverIcon /></button>
-        </Modal.Body>
+//         <Modal.Body>
+//             <p>Modal body text goes here.</p>
+//             <button className="delete-btn" onClick={() => removeItem (index)}><DeleteForeverIcon /></button>
+//         </Modal.Body>
 
-        <Modal.Footer>
-        </Modal.Footer>
-        </Modal.Dialog>
+//         <Modal.Footer>
+//         </Modal.Footer>
+//         </Modal.Dialog>
 
 
         // <div className ="container">
@@ -51,12 +51,12 @@ const Modal = () => {
         //     )
         // })}
         // </div>
-    );
-      }
+    // );
+    //   }
 
 //modal2 test
 
-export default Modal;
+// export default Modal2;
 
 
 
