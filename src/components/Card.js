@@ -49,17 +49,17 @@ function Card() {
             : loading ? <div className="loader"></div>
               : <img src={image} alt="cat on sale" />
           }
-          <h3>{name}</h3>
-          <p>£{price}</p>
+          <h2>{name}</h2>
+          <h3>£{price}</h3>
           <p><a onClick={() => { setInfo(false) }}
           >click here to learn more</a></p>
-          <button>Buy</button>
+          <button>BUY</button>
         </div> :
         <div className="infoSet">
           <h2>{name}</h2>
-          <p>£{price}</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia orci sapien, at posuere odio condimentum ac. Phasellus ut arcu et orci cursus mattis dignissim id dui. Duis nec enim a felis porttitor dapibus. Morbi vitae est vitae odio condimentum sagittis. Duis vehicula lacus tortor, at auctor eros ultrices nec.</p>
-          <button onClick={() => { setInfo(true) }}>back</button>
+          <h3>£{price}</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia orci sapien, at posuere odio condimentum ac. Phasellus ut arcu et orci cursus mattis dignissim id dui.imentum sagittis.</p>
+          <button onClick={() => { setInfo(true) }}>BACK</button>
         </div>
       }
     </div>
