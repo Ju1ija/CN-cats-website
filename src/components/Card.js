@@ -37,7 +37,7 @@ function Card() {
       <img src={image} alt="" />
       <h3>{name}</h3>
       <p><a onClick={() => {setInfo(false)}} 
-      href="#">click here to learn more</a></p>
+      >click here to learn more</a></p>
       <button>£</button>
       </div> :
       <div className="infoSet">
