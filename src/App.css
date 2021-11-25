@@ -13,3 +13,9 @@ img {
 .cats-on-sale div {
   margin: 20px;
 }
+
+body {
+  background-color: #918b8d;
+  text-align: center;
+  font-family: "Bebas Neue", arial;
+}
