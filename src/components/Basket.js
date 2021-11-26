@@ -16,6 +16,7 @@ const Basket = (props) => {
 
 
   const onOpenModal = () => {
+    console.log(props.basketItems)
     setOpen(true);
   }
   const onCloseModal = () => setOpen(false);
