@@ -3,6 +3,8 @@ import './App.css';
 import Card from "./components/Card.js"
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Basket from './components/Basket';
+
 const faker = require('faker');
 
 function App() {
@@ -33,27 +35,30 @@ function App() {
   }
 
   return (
-    <div className="cats-on-sale">
-      {data.map((item) => {
-        return (
-          <div key={item.id}>
-            <div className="mainSet">
-              <img src={item.url} alt="cat on sale" />
-              <h2>{item.name}</h2>
-              <h3>£{item.price}</h3>
-              <p><a onClick={() => { }}
-              >click here to learn more</a></p>
-              <button onClick={() => basketHandler(item)}>BUY</button>
-            </div> :
-            <div className="infoSet">
-              <h2>{item.name}</h2>
-              <h3>£{item.price}</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia orci sapien, at posuere odio condimentum ac. Phasellus ut arcu et orci cursus mattis dignissim id dui.imentum sagittis.</p>
-              <button onClick={() => { }}>BACK</button>
+    <div>
+      <Basket basketItems={basket} />
+      <div className="cats-on-sale">
+        {data.map((item) => {
+          return (
+            <div key={item.id}>
+              <div className="mainSet">
+                <img src={item.url} alt="cat on sale" />
+                <h2>{item.name}</h2>
+                <h3>£{item.price}</h3>
+                <p><a onClick={() => { }}
+                >click here to learn more</a></p>
+                <button onClick={() => basketHandler(item)}>BUY</button>
+              </div> :
+              <div className="infoSet">
+                <h2>{item.name}</h2>
+                <h3>£{item.price}</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia orci sapien, at posuere odio condimentum ac. Phasellus ut arcu et orci cursus mattis dignissim id dui.imentum sagittis.</p>
+                <button onClick={() => { }}>BACK</button>
+              </div>
             </div>
-          </div>
-        )
-      })}
+          )
+        })}
+      </div>
     </div>
   )
 }

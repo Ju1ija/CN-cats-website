@@ -8,9 +8,8 @@ import Basket from './components/Basket';
 
 ReactDOM.render(
   <React.StrictMode>
-     <CookiesProvider>
-    <Basket />
-    <App />
+    <CookiesProvider>
+      <App />
     </CookiesProvider>,
   </React.StrictMode>,
   document.getElementById('root')
