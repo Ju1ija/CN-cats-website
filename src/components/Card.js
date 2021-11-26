@@ -1,7 +1,5 @@
 import './Card.css';
-import { useEffect, useState } from "react";
-const faker = require('faker');
-
+import { useState } from "react";
 
 const Card = (props) => {
   const [info, setInfo] = useState(true);
