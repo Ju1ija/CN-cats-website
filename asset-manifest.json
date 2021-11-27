@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CN-cats-website/static/css/main.0ec11184.chunk.css",
-    "main.js": "/CN-cats-website/static/js/main.2b40b81b.chunk.js",
-    "main.js.map": "/CN-cats-website/static/js/main.2b40b81b.chunk.js.map",
+    "main.css": "/CN-cats-website/static/css/main.9173f932.chunk.css",
+    "main.js": "/CN-cats-website/static/js/main.57e9d396.chunk.js",
+    "main.js.map": "/CN-cats-website/static/js/main.57e9d396.chunk.js.map",
     "runtime-main.js": "/CN-cats-website/static/js/runtime-main.266ba1fd.js",
     "runtime-main.js.map": "/CN-cats-website/static/js/runtime-main.266ba1fd.js.map",
     "static/css/2.48d5e216.chunk.css": "/CN-cats-website/static/css/2.48d5e216.chunk.css",
@@ -12,14 +12,15 @@
     "static/js/3.e0b3796d.chunk.js.map": "/CN-cats-website/static/js/3.e0b3796d.chunk.js.map",
     "index.html": "/CN-cats-website/index.html",
     "static/css/2.48d5e216.chunk.css.map": "/CN-cats-website/static/css/2.48d5e216.chunk.css.map",
-    "static/css/main.0ec11184.chunk.css.map": "/CN-cats-website/static/css/main.0ec11184.chunk.css.map",
-    "static/js/2.ff29f82e.chunk.js.LICENSE.txt": "/CN-cats-website/static/js/2.ff29f82e.chunk.js.LICENSE.txt"
+    "static/css/main.9173f932.chunk.css.map": "/CN-cats-website/static/css/main.9173f932.chunk.css.map",
+    "static/js/2.ff29f82e.chunk.js.LICENSE.txt": "/CN-cats-website/static/js/2.ff29f82e.chunk.js.LICENSE.txt",
+    "static/media/emptyBasket.d11f5121.png": "/CN-cats-website/static/media/emptyBasket.d11f5121.png"
   },
   "entrypoints": [
     "static/js/runtime-main.266ba1fd.js",
     "static/css/2.48d5e216.chunk.css",
     "static/js/2.ff29f82e.chunk.js",
-    "static/css/main.0ec11184.chunk.css",
-    "static/js/main.2b40b81b.chunk.js"
+    "static/css/main.9173f932.chunk.css",
+    "static/js/main.57e9d396.chunk.js"
   ]
 }
