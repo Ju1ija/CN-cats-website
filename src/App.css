@@ -2,6 +2,8 @@ body {
   background-color: #918b8d;
   text-align: center;
   font-family: "Bebas Neue", arial;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -41,8 +43,8 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
-  margin: 50px;
+  align-items: center;
+  max-width: 1200px;
 }
 
 .cats-on-sale div {
@@ -62,7 +64,7 @@ button:hover {
 }
 
 .container:hover {
-  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition: .5s;
 }
 

@@ -1,0 +1,6 @@
+.cart-button {
+  display: flex;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 30px 40px 10px 0;
+}

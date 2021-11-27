@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div>
-      <Basket basket={basket} setBasket={setBasket}/>
+      <Basket basket={basket} setBasket={setBasket} />
       <div className="cats-on-sale">
         {data.map((item, id) => {
           return (
