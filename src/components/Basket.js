@@ -4,6 +4,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
+import emptyBasket from "../emptyBasket.png"
 import './Basket.css';
 
 const Basket = (props) => {
@@ -48,6 +49,7 @@ const BasketEmpty = () => {
   return (
     <div className="empty-basket">
       <h4>Uh oh! Your basket is empty, lets find a furry friend to add!</h4>
+      <img src={emptyBasket} alt="" />
     </div>
   )
 }
