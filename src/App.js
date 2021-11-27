@@ -8,6 +8,7 @@ const faker = require('faker');
 function App() {
   const [data, setData] = useState([]);
   const [basket, setBasket] = useState([]);
+  const [totalCost, setTotalCost] = useState(0);
 
   useEffect(() => {
     getCats();
@@ -30,11 +31,13 @@ function App() {
 
   const basketHandler = (item) => {
     setBasket([...basket, item]);
+    let currentCost = totalCost + Number(item.price);
+    setTotalCost(currentCost);
   }
 
   return (
     <div>
-      <Basket basket={basket} setBasket={setBasket} />
+      <Basket basket={basket} setBasket={setBasket} totalCost={totalCost} setTotalCost={setTotalCost} />
       <div className="cats-on-sale">
         {data.map((item, id) => {
           return (
