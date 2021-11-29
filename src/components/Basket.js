@@ -12,6 +12,8 @@ const Basket = (props) => {
   const onOpenModal = () => setOpen(true);
   const onCloseModal = () => setOpen(false);
 
+
+
   let removeCartItems = (index, item) => {
     let storedCartItems = [...props.basket];
     storedCartItems.splice(index, 1);
@@ -19,7 +21,22 @@ const Basket = (props) => {
     let currentCost = props.totalCost - Number(item.price);
     props.setTotalCost(currentCost);
   }
-
+//               .---. .---. 
+//              :     : o   :    me want cookie!
+//          _..-:   o :     :-.._    /
+//      .-''  '  `---' `---' "   ``-.    
+//    .'   "   '  "  .    "  . '  "  `.  
+//   :   '.---.,,.,...,.,.,.,..---.  ' ;
+//   `. " `.                     .' " .'
+//    `.  '`.                   .' ' .'
+//     `.    `-._           _.-' "  .'  .----.
+//       `. "    '"--...--"'  . ' .'  .'  o   `.
+//       .'`-._'    " .     " _.-'`. :       o  :
+//     .'      ```--.....--'''    ' `:_ o       :
+//   .'    "     '         "     "   ; `.;";";";'
+//  ;         '       "       '     . ; .' ; ; ;
+// ;     '         '       '   "    .'      .-'
+// '  "     "   '      "           "    _.-'
   return (
     <div>
       <div className="cart-button">
