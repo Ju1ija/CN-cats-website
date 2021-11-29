@@ -17,7 +17,7 @@ const MainSetItem = (props) => {
     <img src={props.item.url} alt="cat on sale" />
     <h2>{props.item.name}</h2>
     <h3>£{props.item.price}</h3>
-    <p><a onClick={props.open}>click here to learn more</a></p>
+    <p className="more-info"><a onClick={props.open}>click here to learn more</a></p>
     <button onClick={props.buy}>BUY</button>
   </div>)
 }
